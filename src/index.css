@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.heading_style {
+  padding: 30px 0;
+  text-align: center;
+  font-family: sans-serif, Raleway;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #868686;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.heading {
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.todoframe {
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #6983aa;
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+  border: radius 15px;
+}
+.todolist {
+  width: 25%;
+  width: 80vh;
+  height: 90vh;
+  margin-top: 55px;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  background: transparent;
+  font-size: 20px;
+  width: 60%;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+.additem:hover {
+  background-color: rgb(152, 240, 152) !important;
+}
+.additem {
+  background-color: rgb(194, 199, 194) !important;
+  font-size: 15px !important;
+  color: blue !important;
+  height: fit-content !important;
+}
+.todostyle {
+  text-align: start;
+}
+.delitem {
+  background-color: red !important;
+}
